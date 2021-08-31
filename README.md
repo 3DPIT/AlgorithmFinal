@@ -20,19 +20,14 @@
 
 ## 01.algorithmCode
 
-- [실제 소스 코드](../AlgorithmFinal/01.algorithmCode/algorithmCode)
+- [실제 소스 코드](./01.algorithmCode/algorithmCode)
 
 ## 02.algorithmStudy
-
 - 문서 작성 - 소스 코드 및 설계
----
-
-## 그래프 위주 알고리즘 공부  
-### 0804  
+### 그래프 위주 알고리즘 공부  
+#### 0804  
 - [11724-연결요소개수](./02.algorithmStudy/0804/2021년08월04일_11724-연결요소의개수.md) 
-
-### 0806
-
+#### 0806
 - [16953-A->B](./02.algorithmStudy/0806/2021년08월06일_16953-A-B.md)
 
   
