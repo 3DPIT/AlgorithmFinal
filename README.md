@@ -20,14 +20,11 @@
 
 ## 01.algorithmCode
 
-- 실제 소스 코드
+- [실제 소스 코드](../AlgorithmFinal/01.algorithmCode/algorithmCode)
 
 ## 02.algorithmStudy
 
-- 문서 작서 - 소스 코드 및 설계
-
-
-
+- 문서 작성 - 소스 코드 및 설계
 ---
 
 ## 그래프 위주 알고리즘 공부  
