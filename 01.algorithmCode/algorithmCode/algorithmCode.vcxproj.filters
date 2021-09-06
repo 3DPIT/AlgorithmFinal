@@ -27,13 +27,16 @@
     <ClCompile Include="20210902_3190-뱀.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="20210909_14499주사위굴리기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="20210904_14503-로봇청소기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="20210905_14890-경사로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20210906_15683감시.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20210903_14499주사위굴리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
