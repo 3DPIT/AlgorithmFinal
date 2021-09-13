@@ -1,2 +1,4 @@
-﻿  20210912_14891-톱니바퀴.cpp
+﻿  20210913_14502-연구소.cpp
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210913_14502-연구소.cpp(40): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210913_14502-연구소.cpp(100): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   algorithmCode.vcxproj -> C:\Users\oksos\Desktop\업무\01.algorithm\01.algorithmCode\Debug\algorithmCode.exe
