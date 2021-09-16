@@ -1,3 +1,5 @@
-﻿  20210916_15685-드래곤커브.cpp
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210916_15685-드래곤커브.cpp(47): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  20210916_15686-치킨배달.cpp
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210916_15686-치킨배달.cpp(52): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210916_15686-치킨배달.cpp(55): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210916_15686-치킨배달.cpp(57): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   algorithmCode.vcxproj -> C:\Users\oksos\Desktop\업무\01.algorithm\01.algorithmCode\Debug\algorithmCode.exe
