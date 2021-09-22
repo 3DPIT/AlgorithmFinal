@@ -84,5 +84,8 @@
     <ClCompile Include="20210921_17144-미세먼지.cpp">
       <Filter>소스 파일\09월</Filter>
     </ClCompile>
+    <ClCompile Include="20210922_17143-낚시왕.cpp">
+      <Filter>소스 파일\09월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
