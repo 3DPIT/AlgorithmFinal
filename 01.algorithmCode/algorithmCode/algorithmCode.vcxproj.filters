@@ -90,5 +90,8 @@
     <ClCompile Include="20210923_17140-이차원배열과연산.cpp">
       <Filter>소스 파일\09월</Filter>
     </ClCompile>
+    <ClCompile Include="20210923_17141-연구소2,17142-연구소3.cpp">
+      <Filter>소스 파일\09월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
