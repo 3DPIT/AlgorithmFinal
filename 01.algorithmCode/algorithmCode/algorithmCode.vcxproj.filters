@@ -87,5 +87,8 @@
     <ClCompile Include="20210922_17143-낚시왕.cpp">
       <Filter>소스 파일\09월</Filter>
     </ClCompile>
+    <ClCompile Include="20210923_17140-이차원배열과연산.cpp">
+      <Filter>소스 파일\09월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
