@@ -1,1 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: Windows SDK 버전 10.0.18362.0을(를) 찾을 수 없습니다. 필요한 버전의 Windows SDK를 설치하거나, 솔루션을 마우스 오른쪽 단추로 클릭하고 [솔루션 대상 변경]을 선택하거나 프로젝트 속성 페이지에서 SDK 버전을 변경하세요.
+﻿  20210926_17837-새로운게임2.cpp
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210926_17837-새로운게임2.cpp(118): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210926_17837-새로운게임2.cpp(138): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  algorithmCode.vcxproj -> C:\Users\oksos\Desktop\업무\01.algorithm\01.algorithmCode\Debug\algorithmCode.exe
