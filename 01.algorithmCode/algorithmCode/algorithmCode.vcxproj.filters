@@ -105,5 +105,8 @@
     <ClCompile Include="20210928_17825-주사위윷놀이.cpp">
       <Filter>소스 파일\09월</Filter>
     </ClCompile>
+    <ClCompile Include="20210929_20057-마법사상어와토네이도.cpp">
+      <Filter>소스 파일\09월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
