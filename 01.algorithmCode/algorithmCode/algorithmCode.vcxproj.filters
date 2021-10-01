@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\09월">
       <UniqueIdentifier>{6059ffc7-0519-467c-9e7a-0a6d6316fa07}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10월">
+      <UniqueIdentifier>{e7e5e2b3-1cfc-4b15-95d0-7eb4a15ff411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
@@ -109,7 +112,10 @@
       <Filter>소스 파일\09월</Filter>
     </ClCompile>
     <ClCompile Include="20211001_21610-마법사상어와비바라기.cpp">
-      <Filter>소스 파일\09월</Filter>
+      <Filter>소스 파일\10월</Filter>
+    </ClCompile>
+    <ClCompile Include="20211001_21611-마법사상어와블리자드.cpp">
+      <Filter>소스 파일\10월</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
