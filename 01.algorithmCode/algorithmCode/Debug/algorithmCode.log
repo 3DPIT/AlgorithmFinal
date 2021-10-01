@@ -1,3 +1,6 @@
-﻿  20210929_20057-마법사상어와토네이도.cpp
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20210929_20057-마법사상어와토네이도.cpp(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+﻿  20211001_21610-마법사상어와비바라기.cpp
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211001_21610-마법사상어와비바라기.cpp(54): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211001_21610-마법사상어와비바라기.cpp(63): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211001_21610-마법사상어와비바라기.cpp(67): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211001_21610-마법사상어와비바라기.cpp(76): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   algorithmCode.vcxproj -> C:\Users\oksos\Desktop\업무\01.algorithm\01.algorithmCode\Debug\algorithmCode.exe
