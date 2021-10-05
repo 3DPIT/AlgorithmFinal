@@ -1,7 +1,2 @@
-﻿  20211004_20056-마법사상어와파이어볼.cpp
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211004_20056-마법사상어와파이어볼.cpp(46): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211004_20056-마법사상어와파이어볼.cpp(52): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211004_20056-마법사상어와파이어볼.cpp(64): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211004_20056-마법사상어와파이어볼.cpp(67): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\oksos\desktop\업무\01.algorithm\01.algorithmcode\algorithmcode\20211004_20056-마법사상어와파이어볼.cpp(92): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
+﻿  20211005_20058-마법사상어와파이어스톰.cpp
   algorithmCode.vcxproj -> C:\Users\oksos\Desktop\업무\01.algorithm\01.algorithmCode\Debug\algorithmCode.exe
