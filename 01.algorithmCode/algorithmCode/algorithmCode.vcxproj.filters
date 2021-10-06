@@ -135,5 +135,8 @@
     <ClCompile Include="20211005_20058-마법사상어와파이어스톰.cpp">
       <Filter>소스 파일\10월</Filter>
     </ClCompile>
+    <ClCompile Include="20211006_21608_상어초등학교.cpp">
+      <Filter>소스 파일\10월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
