@@ -40,6 +40,18 @@ struct DataInfo {
 		else return likeCnt < i.likeCnt;//많은거
 	}
 };//우선순위 큐 이므로
+//struct compare {
+//	bool operator()(DataInfo a, DataInfo b) {
+//		if (a.likeCnt == b.likeCnt) {
+//			if (a.zeroCnt == b.likeCnt) {
+//				if (a.y == b.y)return a.x > b.x;
+//				return a.y > b.y;
+//			}
+//			else return a.zeroCnt < b.zeroCnt;
+//		}
+//		else return a.likeCnt < b.likeCnt;//내림차순
+//	}
+//};
 int main(void) {
 	int testCase = 1;
 	for (int tc = 1; tc <= testCase; tc++) {
