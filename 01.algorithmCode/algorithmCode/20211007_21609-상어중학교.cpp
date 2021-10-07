@@ -28,14 +28,15 @@ bool cmp(Data a, Data b) {
 		else return a.num > b.num;
 	}else return a.cnt > b.cnt;
 }
+
 void init();//초기화 및 초기입력
 void autoGame();//자동 게임 시작
 bool safeZone(int y, int x);
 void dfs(int i, int j, int cnt, int num);
 void one();//덩어리선택
 void two();//제거
-//void three();//중력
-//void four();//90도 반시계회전
+void three();//중력
+void four();//90도 반시계회전
 
 int main(void) {
 	int testCase = 1;
@@ -55,19 +56,22 @@ void dfs(int i, int j, int cnt, int num) {
 		Data n;
 		n.y = i + dy[dir]; n.x = j + dx[dir];
 		n.cnt = cnt + 1;
-		if (safeZone(n.y,n.x)&&visit[n.y][n.x]==0&&(B[n.y][n.x] == -2 || B[n.y][n.x] == num)) {
+		if (safeZone(n.y,n.x) && visit[n.y][n.x]==0&&(B[n.y][n.x] == -2 || B[n.y][n.x] == num)) {
+			
 			if (B[n.y][n.x] ==-2)raindow++;
 			blockCnt++;
-			visit[n.y][n.x] = bnum;
+			if (B[n.y][n.x] == -2)visit[n.y][n.x] = -6;
+			else visit[n.y][n.x] = bnum;
 			dfs(n.y, n.x, n.cnt, num);
 		}
 	}
 }
+
 void one() {
+	memset(visit, 0, sizeof(visit));
 	block.clear();
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
-			memset(visit, 0, sizeof(visit));
 			if (B[i][j]!=0&&visit[i][j] == 0 && B[i][j] != -1 && B[i][j] !=-2) {
 				raindow = 0; blockCnt = 1;
 				bnum++;
@@ -79,6 +83,11 @@ void one() {
 					bnum--;
 					visit[i][j] = 0;
 				}
+				for (int i = 0; i < N; i++) {
+					for (int j = 0; j < N; j++) {
+						if (visit[i][j] == -6)visit[i][j] = 0;
+					}
+				}
 				if (blockCnt > 1)block.push_back({ i,j,blockCnt,raindow,bnum});
 			}
 		}
@@ -88,11 +97,11 @@ void one() {
 void two() {
 	memset(visit, 0, sizeof(visit));
 	bnum = block[0].bnum;
-	dfs(block[0].y, block[0].x,1, B[block[0].y][block[0].x]);
+	dfs(block[0].y, block[0].x, 1, B[block[0].y][block[0].x]);
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
-			if (visit[i][j] == block[0].bnum) {
-				B[i][j] =0;
+			if (visit[i][j]!=0) {
+				B[i][j] = 0;
 			}
 		}
 	}
@@ -131,6 +140,7 @@ void four() {
 			B[i][j] = C[j][N - i-1];
 		}
 	}
+
 }
 void autoGame() {
 	while(1) {
