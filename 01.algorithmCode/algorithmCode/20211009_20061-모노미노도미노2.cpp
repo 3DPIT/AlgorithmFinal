@@ -1,8 +1,3 @@
-## 2021.10.09_20061-ëª¨ë…¸ë¯¸ë…¸ë„ë¯¸ë…¸2
-
-## ì†ŒìŠ¤ì½”ë“œ
-
-```c++
 #include<stdio.h>
 #include<iostream>
 #include<vector>
@@ -14,8 +9,8 @@ int green[SIZE][4];
 int N;
 int t, x, y;
 int score, finalCnt;
-void init();//ì´ˆê¸°í™” ë° ì´ˆê¸° ì…ë ¥
-void gamePlay();//ê²Œì„ ì‹œì‘
+void init();//ÃÊ±âÈ­ ¹× ÃÊ±â ÀÔ·Â
+void gamePlay();//°ÔÀÓ ½ÃÀÛ
 int main(void) {
 	int testCase = 1;
 	for (int tc = 1; tc <= testCase; tc++) {
@@ -43,7 +38,7 @@ void moveGreenZone(int t, int y, int x) {
 	int y1, x1, y2, x2;
 	if (t == 1) {
 		y1 = y; x1 = x;
-		while (greenSafeZone(y1, x1) && green[y1][x1] == 0) {//ë²”ìœ„ ì•ˆë„˜ê³  ë¸”ëŸ­ ì—†ìœ¼ë©´
+		while (greenSafeZone(y1, x1) && green[y1][x1] == 0) {//¹üÀ§ ¾È³Ñ°í ºí·° ¾øÀ¸¸é
 			y1++;
 		}
 		y1--;
@@ -77,7 +72,7 @@ void moveBlueZone(int t, int y, int x) {
 	int y1, x1, y2, x2;
 	if (t == 1) {
 		y1 = y; x1 = x;
-		while (blueSafeZone(y1, x1) && blue[y1][x1] == 0) {//ë²”ìœ„ ì•ˆë„˜ê³  ë¸”ëŸ­ ì—†ìœ¼ë©´
+		while (blueSafeZone(y1, x1) && blue[y1][x1] == 0) {//¹üÀ§ ¾È³Ñ°í ºí·° ¾øÀ¸¸é
 			x1++;
 		}
 		x1--;
@@ -190,18 +185,3 @@ void init() {
 	memset(green, 0, sizeof(green));
 	scanf("%d", &N);
 }
-```
-
-## ì„¤ê³„
-
-![image-20211010010800453](2021.10.09_20061-ëª¨ë…¸ë¯¸ë…¸ë„ë¯¸ë…¸2.assets/image-20211010010800453.png)
-
-## ì‹¤ìˆ˜
-
-
-
-## ë¬¸ì œ ë§í¬
-
-[20061-ëª¨ë…¸ë¯¸ë…¸ë„ë¯¸ë…¸ 2](https://www.acmicpc.net/problem/20061)
-
-## ì›ë³¸

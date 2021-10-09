@@ -141,5 +141,8 @@
     <ClCompile Include="20211007_21609-상어중학교.cpp">
       <Filter>소스 파일\10월</Filter>
     </ClCompile>
+    <ClCompile Include="20211009_20061-모노미노도미노2.cpp">
+      <Filter>소스 파일\10월</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
