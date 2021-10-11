@@ -83,25 +83,39 @@ void fishing() {
 		}
 		if (sea.size() == 0)break;
 		sort(sea.begin(), sea.end(), cmp);
-		for (int a = 0; a < sea.size() - 1; a++) {
-			if (sea.size() == 0)break;
-			int cnt = 0;//현재 몇개가 같은지 체크
-			int maxSize = sea[a].size;
-			Data cM;//맥스값 저장
-			cM = sea[a];
-			for (int b = a + 1; b < sea.size(); b++) {
-				if (sea[a].y == sea[b].y&&sea[a].x == sea[b].x) {//같으면 종료
-					if (maxSize < sea[b].size) {//가장큰 개체 선별하기
-						maxSize = sea[b].size;
-						cM = sea[b];
-					}
-					cnt++;
+		//for (int a = 0; a < sea.size() - 1; a++) {
+		//	if (sea.size() == 0)break;
+		//	int cnt = 0;//현재 몇개가 같은지 체크
+		//	int maxSize = sea[a].size;
+		//	Data cM;//맥스값 저장
+		//	cM = sea[a];
+		//	for (int b = a + 1; b < sea.size(); b++) {
+		//		if (sea[a].y == sea[b].y&&sea[a].x == sea[b].x) {//같으면 종료
+		//			if (maxSize < sea[b].size) {//가장큰 개체 선별하기
+		//				maxSize = sea[b].size;
+		//				cM = sea[b];
+		//			}
+		//			cnt++;
+		//		}
+		//		else break;//같지 않으면 종료
+		//	}
+		//	if (cnt != 0) {
+		//		sea.erase(sea.begin() + a + 1, sea.begin() + a + cnt + 1);//상어 먹고
+		//		sea[a] = cM;//제일 큰놈으로 대체
+		//	}
+		//}
+
+		for (int i = 0; i < sea.size() - 1; i++) {
+			if (sea.size() == 1)break;
+			if (sea[i].y == sea[i + 1].y&&sea[i].x == sea[i + 1].x) {
+				if (sea[i].size > sea[i + 1].size) {
+					sea.erase(sea.begin() + i + 1);
+					i--;
 				}
-				else break;//같지 않으면 종료
-			}
-			if (cnt != 0) {
-				sea.erase(sea.begin() + a + 1, sea.begin() + a + cnt + 1);//상어 먹고
-				sea[a] = cM;//제일 큰놈으로 대체
+				else if (sea[i].size < sea[i + 1].size) {
+					sea.erase(sea.begin() + i);
+					i--;
+				}
 			}
 		}
 
