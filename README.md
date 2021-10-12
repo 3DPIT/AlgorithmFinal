@@ -1,4 +1,4 @@
-# AlgorithmFinal  
+# AlgorithmFinal  (fin)
 
 ## 목적  
 
