@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\10월">
       <UniqueIdentifier>{e7e5e2b3-1cfc-4b15-95d0-7eb4a15ff411}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10월\swExpertAcademy">
+      <UniqueIdentifier>{456a0b8b-abfa-4ede-9995-913aa16e247b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
@@ -143,6 +146,9 @@
     </ClCompile>
     <ClCompile Include="20211009_20061-모노미노도미노2.cpp">
       <Filter>소스 파일\10월</Filter>
+    </ClCompile>
+    <ClCompile Include="20211018_12741두전구.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
