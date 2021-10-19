@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	{
 		init();
 		nineNine2();
-		printf("#%d %d\n", &test_case, answer);
+		printf("#%d %d\n", test_case, answer);
 	}
 	return 0;//정상종료시 반드시 0을 리턴해야합니다.
 }
