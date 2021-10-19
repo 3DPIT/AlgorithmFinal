@@ -150,5 +150,8 @@
     <ClCompile Include="20211018_12741두전구.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="211019_12368-24시간.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
