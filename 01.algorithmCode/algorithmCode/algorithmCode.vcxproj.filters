@@ -162,6 +162,12 @@
     <ClCompile Include="211020_11315-오목판정.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211021_10505-소득불균형.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211021_99440-순열1.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="211019_12221-구구단2.cpp">
