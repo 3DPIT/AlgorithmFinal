@@ -1,7 +1,7 @@
 
 #include<iostream>
 using namespace std;
-int N
+int N;
 int answer;
 int arr[21];//숫자 저장
 void init();//초기화 및 초기 입력
