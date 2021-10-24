@@ -1,4 +1,4 @@
-## 003.algorithm_refactoring
+### 003.algorithm_refactoring
 
 #### 목적
 
@@ -10,5 +10,4 @@
 
 ##### 같은 위치의 인덱스 값 지우는 소스
 
-  - [x] `2021.10.11`[17143-낚시왕](./02.algorithmStudy/003.algorithm_refactoring/2021/10/1011/01.17143-낚시왕/2021.10.11_17143-낚시왕.md)
-
+  - [x] `2021.10.11`[17143-낚시왕](./02.algorithmStudy/003.algorithm_regactoring/2021/10/1011/01.17143-낚시왕(중복값지우는것리팩토링)/2021.10.11_17143-낚시왕.md)
