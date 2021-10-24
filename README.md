@@ -17,9 +17,9 @@
 
 - [실제 소스 코드](./01.algorithmCode/algorithmCode)
 
-## 02.algorithmStudy
+## 02.algorithm_
 - 문서 작성 - 소스 코드 및 설계
-### 고리즘 공부  
+### 알고리즘 공부  
 
 - [x] `2021.08.04`[11724-연결요소개수](./02.algorithmStudy/2021/08/0804/2021년08월04일_11724-연결요소의개수.md) 
 
