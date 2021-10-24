@@ -150,18 +150,6 @@
     <ClCompile Include="20211018_12741두전구.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
-    <ClCompile Include="211019_12368-24시간.cpp">
-      <Filter>소스 파일\10월\swExpertAcademy</Filter>
-    </ClCompile>
-    <ClCompile Include="211019_12004-구구단1.cpp">
-      <Filter>소스 파일\10월\swExpertAcademy</Filter>
-    </ClCompile>
-    <ClCompile Include="211020_11856-반반.cpp">
-      <Filter>소스 파일\10월\swExpertAcademy</Filter>
-    </ClCompile>
-    <ClCompile Include="211020_11315-오목판정.cpp">
-      <Filter>소스 파일\10월\swExpertAcademy</Filter>
-    </ClCompile>
     <ClCompile Include="20211021_10505-소득불균형.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
@@ -174,9 +162,27 @@
     <ClCompile Include="20211022_3431-준환이의운동관리.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211024_5601-쥬스나누기.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211020_11856-반반.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211020_11315-오목판정.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211019_12368-24시간.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211019_12004-구구단1.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211024_1234-비밀번호.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="211019_12221-구구단2.cpp">
+    <None Include="20211019_12221-구구단2.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </None>
   </ItemGroup>
