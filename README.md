@@ -17,7 +17,7 @@
 
 - [실제 소스 코드](./01.algorithmCode/algorithmCode)
 
-## 02.algorithm_
+## 02.algorithm_백준
 - 문서 작성 - 소스 코드 및 설계
 ### 알고리즘 공부  
 
