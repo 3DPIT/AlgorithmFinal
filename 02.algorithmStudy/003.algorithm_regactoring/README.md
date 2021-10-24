@@ -1,4 +1,4 @@
-### 003.algorithm_refactoring
+## 003.algorithm_refactoring
 
 #### 목적
 
