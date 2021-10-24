@@ -1,4 +1,4 @@
-### 002.algorithm_백준
+## 002.algorithm_백준
 
 - #### 계획   
 
