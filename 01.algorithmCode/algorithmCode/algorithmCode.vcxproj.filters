@@ -186,6 +186,9 @@
     <ClCompile Include="20211026_6730-장애물경주난이도.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211029_9997-미니멀리즘시계.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
