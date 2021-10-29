@@ -295,7 +295,9 @@
     <ClCompile Include="20211028_4406-모음이보이지않는사람.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20211029_9997-미니멀리즘시계.cpp" />
+    <ClCompile Include="20211029_9997-미니멀리즘시계.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -327,6 +329,7 @@
     <ClCompile Include="20211024_5601-쥬스나누기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="20211029_8658-Summation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
