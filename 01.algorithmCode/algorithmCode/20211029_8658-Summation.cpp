@@ -14,7 +14,7 @@ int main(int argc, char** argv)
 	for (test_case = 1; test_case <= T; ++test_case)
 	{
 		initData();
-		printf("#%d %d\n",test_case,maxNum, minNum)
+		printf("#%d %d %d\n", test_case, maxNum, minNum);
 
 	}
 	return 0;//정상종료시 반드시 0을 리턴해야합니다.
