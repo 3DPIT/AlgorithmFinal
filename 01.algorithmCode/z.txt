@@ -1,0 +1,5 @@
+﻿1>------ 빌드 시작: 프로젝트: algorithmCode, 구성: Debug x64 ------
+1>20211031_1226-미로1.cpp
+1>LINK : fatal error LNK1168: C:\Users\oksos\Desktop\work\01.algorithm\01.algorithmCode\x64\Debug\algorithmCode.exe을(를) 쓰기용으로 열 수 없습니다.
+1>"algorithmCode.vcxproj" 프로젝트를 빌드했습니다. - 실패
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========

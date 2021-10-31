@@ -195,6 +195,9 @@
     <ClCompile Include="20211030_1220-Magnetic.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211031_1226-미로1.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
