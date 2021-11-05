@@ -198,6 +198,9 @@
     <ClCompile Include="20211031_1226-미로1.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211105_1225암호생성기.cpp">
+      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
