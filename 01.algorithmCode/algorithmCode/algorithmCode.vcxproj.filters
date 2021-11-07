@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\10월\swExpertAcademy">
       <UniqueIdentifier>{456a0b8b-abfa-4ede-9995-913aa16e247b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11월">
+      <UniqueIdentifier>{afba9ba9-a8e0-4432-ac00-72624e79e25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11월\swExpertAcademy">
+      <UniqueIdentifier>{11275810-37c2-4b87-9687-fd21521ccb39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
@@ -198,8 +204,14 @@
     <ClCompile Include="20211031_1226-미로1.cpp">
       <Filter>소스 파일\10월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211106_1217-거듭제곱.cpp">
+      <Filter>소스 파일\11월\swExpertAcademy</Filter>
+    </ClCompile>
     <ClCompile Include="20211105_1225암호생성기.cpp">
-      <Filter>소스 파일\10월\swExpertAcademy</Filter>
+      <Filter>소스 파일\11월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="20211107_8673-코딩토너먼트1.cpp">
+      <Filter>소스 파일\11월\swExpertAcademy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
