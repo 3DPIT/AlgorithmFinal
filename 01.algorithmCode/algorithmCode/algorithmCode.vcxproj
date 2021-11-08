@@ -310,7 +310,10 @@
     <ClCompile Include="20211106_1217-거듭제곱.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20211107_8673-코딩토너먼트1.cpp" />
+    <ClCompile Include="20211107_8673-코딩토너먼트1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20211108_1218-괄호짝짓기.cpp" />
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

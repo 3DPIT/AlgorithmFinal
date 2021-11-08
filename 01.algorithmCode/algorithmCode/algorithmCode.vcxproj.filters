@@ -213,6 +213,9 @@
     <ClCompile Include="20211107_8673-코딩토너먼트1.cpp">
       <Filter>소스 파일\11월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211108_1218-괄호짝짓기.cpp">
+      <Filter>소스 파일\11월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
