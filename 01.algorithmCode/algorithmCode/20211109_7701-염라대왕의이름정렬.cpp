@@ -16,7 +16,7 @@ void initData() {
 		cin >> lifeName;
 		name.push_back(lifeName);
 	}
-	sort(name.begin(), name.end());
+	sort(name.begin(), name.end(), cmp);
 }
 int main(int argc, char** argv)
 {
