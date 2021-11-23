@@ -225,6 +225,9 @@
     <ClCompile Include="20211111_7728-다양성측정.cpp">
       <Filter>소스 파일\11월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211123_8931제로.cpp">
+      <Filter>소스 파일\11월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
