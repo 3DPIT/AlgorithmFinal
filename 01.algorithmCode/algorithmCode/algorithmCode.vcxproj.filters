@@ -28,6 +28,12 @@
     <Filter Include="소스 파일\11월\swExpertAcademy">
       <UniqueIdentifier>{11275810-37c2-4b87-9687-fd21521ccb39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\12월">
+      <UniqueIdentifier>{e083e255-59d1-46ca-b00d-e83b81aa9726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12월\swExpertAcademy">
+      <UniqueIdentifier>{147de66b-4ed3-41ff-8824-41b204ef89f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="210804_11724-연결요소의개수.cpp">
@@ -227,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="20211123_8931제로.cpp">
       <Filter>소스 파일\11월\swExpertAcademy</Filter>
+    </ClCompile>
+    <ClCompile Include="202112077_2819격자판의숫자이어붙이기.cpp">
+      <Filter>소스 파일\12월\swExpertAcademy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
