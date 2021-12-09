@@ -237,6 +237,9 @@
     <ClCompile Include="202112077_2819격자판의숫자이어붙이기.cpp">
       <Filter>소스 파일\12월\swExpertAcademy</Filter>
     </ClCompile>
+    <ClCompile Include="20211209_13229일요일.cpp">
+      <Filter>소스 파일\12월\swExpertAcademy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="20211019_12221-구구단2.cpp">
